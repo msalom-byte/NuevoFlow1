@@ -1,0 +1,10 @@
+Basado en la especificación specs/inicial.md y siguiendo las reglas de .antigravity/rules.md, 
+genera el código para src/components.js.
+
+Asegúrate de que:
+
+Exportes dos funciones: createNavbar(title) y createContent(text).
+
+Sean funciones puras que retornen un template string de HTML.
+
+No incluyas lógica de manipulación del DOM (sin document.querySelector), solo generación de strings.
